@@ -5,6 +5,7 @@ import tensorflow as tf
 # Define the number of latent variables
 num_latent_vars = 16
 
+
 with st.sidebar:
     sliders = []
     for i in range(num_latent_vars):
