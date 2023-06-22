@@ -1,3 +1,6 @@
+
+## Proxy settings for research cloud:
+```
 location / {    
   proxy_pass http://localhost:8501;
 }
@@ -23,3 +26,4 @@ location /_stcore/stream {
     proxy_set_header Connection "upgrade";
     proxy_read_timeout 86400;
 }
+```
